@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lists",
+  "info": {
+    "singularName": "list",
+    "pluralName": "lists",
+    "displayName": "list"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userName": {
+      "type": "string"
+    },
+    "userEmail": {
+      "type": "email",
+      "unique": true
+    },
+    "credits": {
+      "type": "integer",
+      "default": 10
+    }
+  }
+}
